@@ -1,0 +1,84 @@
+I, [2020-07-09T16:33:08.549431 #24171]  INFO -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:08 +0700
+I, [2020-07-09T16:33:08.551013 #24171]  INFO -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:08.562408 #24171]  INFO -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:08.563806 #24171]  INFO -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a]   Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 378)
+I, [2020-07-09T16:33:08.564012 #24171]  INFO -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a] Completed 500 Internal Server Error in 13ms (Allocations: 2191)
+F, [2020-07-09T16:33:08.565557 #24171] FATAL -- : [0301ea37-956c-4d41-a893-ce6f4ecb0c7a]   
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]      8: 	</h2>
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]     10: </div>
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]     12: <hr>
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a]   
+[0301ea37-956c-4d41-a893-ce6f4ecb0c7a] app/views/static_pages/home.html.erb:11
+I, [2020-07-09T16:33:09.851686 #24171]  INFO -- : [c1d14f13-6806-4193-806e-dfb30aa2969a] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:09 +0700
+I, [2020-07-09T16:33:09.852683 #24171]  INFO -- : [c1d14f13-6806-4193-806e-dfb30aa2969a] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:09.854767 #24171]  INFO -- : [c1d14f13-6806-4193-806e-dfb30aa2969a]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:09.855456 #24171]  INFO -- : [c1d14f13-6806-4193-806e-dfb30aa2969a]   Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+I, [2020-07-09T16:33:09.855642 #24171]  INFO -- : [c1d14f13-6806-4193-806e-dfb30aa2969a] Completed 500 Internal Server Error in 3ms (Allocations: 1033)
+F, [2020-07-09T16:33:09.856854 #24171] FATAL -- : [c1d14f13-6806-4193-806e-dfb30aa2969a]   
+[c1d14f13-6806-4193-806e-dfb30aa2969a] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[c1d14f13-6806-4193-806e-dfb30aa2969a]      8: 	</h2>
+[c1d14f13-6806-4193-806e-dfb30aa2969a]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[c1d14f13-6806-4193-806e-dfb30aa2969a]     10: </div>
+[c1d14f13-6806-4193-806e-dfb30aa2969a]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[c1d14f13-6806-4193-806e-dfb30aa2969a]     12: <hr>
+[c1d14f13-6806-4193-806e-dfb30aa2969a]   
+[c1d14f13-6806-4193-806e-dfb30aa2969a] app/views/static_pages/home.html.erb:11
+I, [2020-07-09T16:33:10.269906 #24171]  INFO -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:10 +0700
+I, [2020-07-09T16:33:10.270998 #24171]  INFO -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:10.273417 #24171]  INFO -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:10.274215 #24171]  INFO -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1]   Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+I, [2020-07-09T16:33:10.274444 #24171]  INFO -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1] Completed 500 Internal Server Error in 3ms (Allocations: 1032)
+F, [2020-07-09T16:33:10.275330 #24171] FATAL -- : [88de2f1c-3ea9-4e2d-9e75-9859498a88b1]   
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]      8: 	</h2>
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]     10: </div>
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]     12: <hr>
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1]   
+[88de2f1c-3ea9-4e2d-9e75-9859498a88b1] app/views/static_pages/home.html.erb:11
+I, [2020-07-09T16:33:10.484088 #24171]  INFO -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:10 +0700
+I, [2020-07-09T16:33:10.484676 #24171]  INFO -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:10.485893 #24171]  INFO -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:10.486228 #24171]  INFO -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]   Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+I, [2020-07-09T16:33:10.486360 #24171]  INFO -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b] Completed 500 Internal Server Error in 2ms (Allocations: 1032)
+F, [2020-07-09T16:33:10.487031 #24171] FATAL -- : [52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]   
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]      8: 	</h2>
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]     10: </div>
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]     12: <hr>
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b]   
+[52f0c148-2ff2-4ba9-ae7b-b7948fc3eb5b] app/views/static_pages/home.html.erb:11
+I, [2020-07-09T16:33:10.665049 #24171]  INFO -- : [34db4ba7-cd24-4ac0-887b-60906bd61529] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:10 +0700
+I, [2020-07-09T16:33:10.666061 #24171]  INFO -- : [34db4ba7-cd24-4ac0-887b-60906bd61529] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:10.667786 #24171]  INFO -- : [34db4ba7-cd24-4ac0-887b-60906bd61529]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:10.668181 #24171]  INFO -- : [34db4ba7-cd24-4ac0-887b-60906bd61529]   Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 169)
+I, [2020-07-09T16:33:10.668286 #24171]  INFO -- : [34db4ba7-cd24-4ac0-887b-60906bd61529] Completed 500 Internal Server Error in 2ms (Allocations: 1027)
+F, [2020-07-09T16:33:10.669003 #24171] FATAL -- : [34db4ba7-cd24-4ac0-887b-60906bd61529]   
+[34db4ba7-cd24-4ac0-887b-60906bd61529] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[34db4ba7-cd24-4ac0-887b-60906bd61529]      8: 	</h2>
+[34db4ba7-cd24-4ac0-887b-60906bd61529]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[34db4ba7-cd24-4ac0-887b-60906bd61529]     10: </div>
+[34db4ba7-cd24-4ac0-887b-60906bd61529]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[34db4ba7-cd24-4ac0-887b-60906bd61529]     12: <hr>
+[34db4ba7-cd24-4ac0-887b-60906bd61529]   
+[34db4ba7-cd24-4ac0-887b-60906bd61529] app/views/static_pages/home.html.erb:11
+I, [2020-07-09T16:33:10.835637 #24171]  INFO -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12] Started GET "/" for 127.0.0.1 at 2020-07-09 16:33:10 +0700
+I, [2020-07-09T16:33:10.836391 #24171]  INFO -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12] Processing by StaticPagesController#home as HTML
+I, [2020-07-09T16:33:10.838048 #24171]  INFO -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]   Rendering static_pages/home.html.erb within layouts/application
+I, [2020-07-09T16:33:10.838537 #24171]  INFO -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]   Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+I, [2020-07-09T16:33:10.838678 #24171]  INFO -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12] Completed 500 Internal Server Error in 2ms (Allocations: 1027)
+F, [2020-07-09T16:33:10.839701 #24171] FATAL -- : [7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]   
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12] ActionView::Template::Error (The asset "Ruby_On_Rails_Logo.svg.png" is not present in the asset pipeline.):
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]      8: 	</h2>
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]      9: 	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]     10: </div>
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]     11: <%= link_to image_tag("Ruby_On_Rails_Logo.svg.png", alt: "Rails logo", width: "200px"),"https://rubyonrails.org/" %>
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]     12: <hr>
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12]   
+[7c84d7f9-21dc-4cfb-8f67-2bccca6c3a12] app/views/static_pages/home.html.erb:11
