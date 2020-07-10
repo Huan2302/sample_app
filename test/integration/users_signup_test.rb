@@ -25,5 +25,8 @@ end
     follow_redirect!
     assert_template 'users/show'
     assert is_logged_in?
+  follow_redirect!
+  assert_template 'users/show'
+  assert_not flash.FILL_IN
   end
 end
