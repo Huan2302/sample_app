@@ -6,6 +6,8 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.2"
 
 gem "bootstrap-sass", "3.4.1"
 
+gem "config"
+
 gem "mysql2", ">= 0.4.4"
 
 gem "puma", "~> 4.1"
@@ -46,3 +48,6 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "rails-controller-testing"
+
+gem "bcrypt", "3.1.13"
+
